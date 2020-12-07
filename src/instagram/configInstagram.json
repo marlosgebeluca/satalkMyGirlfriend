@@ -1,0 +1,26 @@
+{
+    "usuario": "SEU USUARIO AQUI",
+    "senha": "SUA SENHA",
+    "stalkeado": "USUARIO QUE VC QUER CURTIR",
+    "hashtags": ["exemplo"],
+    "settings": {
+        "run_every_x_hours": 0.0625,
+        "like_ratio": 0.75,
+        "follow_ratio": 0.25,
+        "do_unfollows": true,
+        "unfollow_after_days": 2,
+        "headless": false
+    },
+    "selectors": {
+        "home_to_login_button": ".izU2O a",
+        "usuario": "input[type=\"text\"]",
+        "senha": "input[type=\"password\"]",
+        "login_button": "button[type=\"submit\"]",
+        "ativar_notificacao_ativar": "button.aOOlW.bIiDR",
+        "ativar_notificacao_agora_nao": "button.aOOlW.HoLwm",
+        "busca": "div.eyXLr.wUAXj",
+        "ultima_postagem": "div.Nnq7C.weEfm > div.v1Nh3.kIKUG._bz0w > a",
+        "coracao_nao_curtido": "span.glyphsSpriteHeart__outline__24__grey_9",
+        "coracao_curtido": "span.glyphsSpriteHeart__filled__24__red_5"
+    }
+}
